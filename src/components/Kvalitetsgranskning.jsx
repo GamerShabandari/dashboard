@@ -162,7 +162,11 @@ export function Kvalitetsgranskning() {
          // console.log("Bunderlag: " , res);
          let berakningsunderlagData =  getBerakningsUnderlag();
          setBerakningsUnderlag([...berakningsunderlagData])
-         setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
+
+         setTimeout(() => {
+            setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
+          }, "5000");
+         
 
     }
 
