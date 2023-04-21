@@ -201,9 +201,9 @@
             {
                 "attesterad": true,
                 "agressoPassId": 0,
-                "aktivitet": 32008202,
+                "aktivitet": 32008101,
                 "arbetePåStorhelg": false,
-                "arbetstypKod": 10,
+                "arbetstypKod": 11,
                 "arbetstypKodText": "Planerad kontroll",
                 "intäktskategoriKod": 11,
                 "intäktskategoriKodText": "11",
