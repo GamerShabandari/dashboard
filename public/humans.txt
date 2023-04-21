@@ -1,0 +1,46 @@
+
+                            
+/* TEAM */
+
+                            
+Frontend: Gamer Shabandari.
+
+                            
+Site: https://gamershabandari.github.io/cv/
+
+                            
+Github: https://github.com/GamerShabandari
+
+                            
+Location: Uppsala, Sweden.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: name or url
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2023/04/20 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: React, Framer Motion, Lottiefiles, ReactTable, ReactDatepicker, ReactSelect, Axios, XLSX.
+
+                            
+Software: VSCode
