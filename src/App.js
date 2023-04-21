@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
-          <img id='logo' src="/logotyp.png" alt="Livsmedelsverket logotyp"></img>
+          <img id='logo' src="/Logotyp.png" alt="Livsmedelsverket logotyp"></img>
           <Navbar></Navbar>
         </header>
         <main>
