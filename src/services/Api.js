@@ -4,57 +4,57 @@ import berakningsunderlag_data from './berakningsunderlag_data.json';
 let teams_data = [
     {
         "id": "1",
-        "namn": "Test",
+        "namn": "Team X",
         "medlemmar": [],
-        "value": "Test",
-        "label": "Test"
+        "value": "Team X",
+        "label": "Team X"
     },
     {
         "id": "2",
-        "namn": "Test2",
+        "namn": "Team Y",
         "medlemmar": [],
-        "value": "Test2",
-        "label": "Test2"
+        "value": "Team Y",
+        "label": "Team Y"
     },
     {
         "id": "3",
-        "namn": "Test3",
+        "namn": "Team Z",
         "medlemmar": [],
-        "value": "Test3",
-        "label": "Test3"
+        "value": "Team Z",
+        "label": "Team Z"
     }
 ]
 
 let anlaggningar_data = [
     {
         "id": 1,
-        "namn": "Test",
+        "namn": "Anläggning X",
         "teamID": "1",
-        "team": "Test",
+        "team": "Anläggning X",
         "godkannandeNummer": "396",
-        "företag": "Test",
+        "företag": "Anläggning X",
         "godkannandeDatum": "2013-05-10T00:00:00",
         "avvikelser": null,
         "idStr": "1"
     },
     {
         "id": 2,
-        "namn": "Test2",
+        "namn": "Anläggning Y",
         "teamID": "2",
-        "team": "Test2",
+        "team": "Anläggning Y",
         "godkannandeNummer": "321",
-        "företag": "Test2",
+        "företag": "Anläggning Y",
         "godkannandeDatum": "2012-04-26T00:00:00",
         "avvikelser": null,
         "idStr": "2"
     },
     {
         "id": 3,
-        "namn": "Test3",
+        "namn": "Anläggning Z",
         "teamID": "3",
-        "team": "Test2",
+        "team": "Anläggning Z",
         "godkannandeNummer": "120",
-        "företag": "Test2",
+        "företag": "Anläggning Z",
         "godkannandeDatum": "2010-10-15T00:00:00",
         "avvikelser": null,
         "idStr": "3"
@@ -96,7 +96,7 @@ let avvikelser_data = [
 let slaktvolymer_data = [
     {
         "anlaggningID": 1,
-        "anlaggningNamn": "Test",
+        "anlaggningNamn": "Anläggning X",
         "antal": 134,
         "djurnamn": "Får",
         "djurtyp": 17,
@@ -107,7 +107,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 98,
         "djurnamn": "Älg",
         "djurtyp": 32,
@@ -118,7 +118,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 1217,
         "djurnamn": "Dovhjort",
         "djurtyp": 33,
@@ -129,7 +129,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 1327,
         "djurnamn": "Rådjur",
         "djurtyp": 31,
@@ -140,7 +140,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 1297,
         "djurnamn": "Vildsvin",
         "djurtyp": 35,
@@ -151,7 +151,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 2,
         "djurnamn": "Kronhjort",
         "djurtyp": 34,
@@ -162,7 +162,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Test2",
+        "anlaggningNamn": "Anläggning Y",
         "antal": 14622,
         "djurnamn": "Nötkreatur",
         "djurtyp": 14,
@@ -173,7 +173,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Test3",
+        "anlaggningNamn": "Anläggning Z",
         "antal": 33,
         "djurnamn": "Kalv",
         "djurtyp": 15,
@@ -184,7 +184,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Test3",
+        "anlaggningNamn": "Anläggning Z",
         "antal": 89,
         "djurnamn": "Får",
         "djurtyp": 17,
@@ -195,7 +195,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Test3",
+        "anlaggningNamn": "Anläggning Z",
         "antal": 150,
         "djurnamn": "Nötkreatur",
         "djurtyp": 14,
@@ -206,7 +206,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Test3",
+        "anlaggningNamn": "Anläggning Z",
         "antal": 14,
         "djurnamn": "Sugga",
         "djurtyp": 19,
@@ -217,7 +217,7 @@ let slaktvolymer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Test3",
+        "anlaggningNamn": "Anläggning Z",
         "antal": 692,
         "djurnamn": "Får",
         "djurtyp": 17,
