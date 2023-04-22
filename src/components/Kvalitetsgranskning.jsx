@@ -309,8 +309,6 @@ export function Kvalitetsgranskning() {
 
     // strukturera och formatera komplett tabell
     function structureTable(anlaggningar, berakningsUnderlag) {
-        console.log(anlaggningar);
-        console.log(berakningsUnderlag);
         let returnedArray = structureTableData(anlaggningar, berakningsUnderlag)
 
         // visar per default inte anläggningar som är tomma på data
