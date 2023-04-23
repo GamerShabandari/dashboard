@@ -35,7 +35,7 @@ let avvikelser_data = [
     }
 ]
 
-let slaktvolBmer_data = [
+let slaktvolymer_data = [
     {
         "anlaggningID": 1,
         "anlaggningNamn": "Team1",
@@ -44,7 +44,7 @@ let slaktvolBmer_data = [
         "djurtBp": 17,
         "fran": "2022-01-01T00:00:00",
         "schablon": 20.9,
-        "slaktvolBm": 2800.6,
+        "slaktvolym": 2800.6,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -55,7 +55,7 @@ let slaktvolBmer_data = [
         "djurtBp": 32,
         "fran": "2022-01-01T00:00:00",
         "schablon": 135,
-        "slaktvolBm": 13230,
+        "slaktvolym": 13230,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -66,7 +66,7 @@ let slaktvolBmer_data = [
         "djurtBp": 33,
         "fran": "2022-01-01T00:00:00",
         "schablon": 25,
-        "slaktvolBm": 30425,
+        "slaktvolym": 30425,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -77,7 +77,7 @@ let slaktvolBmer_data = [
         "djurtBp": 31,
         "fran": "2022-01-01T00:00:00",
         "schablon": 14,
-        "slaktvolBm": 18578,
+        "slaktvolym": 18578,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -88,7 +88,7 @@ let slaktvolBmer_data = [
         "djurtBp": 35,
         "fran": "2022-01-01T00:00:00",
         "schablon": 30,
-        "slaktvolBm": 38910,
+        "slaktvolym": 38910,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -99,7 +99,7 @@ let slaktvolBmer_data = [
         "djurtBp": 34,
         "fran": "2022-01-01T00:00:00",
         "schablon": 50,
-        "slaktvolBm": 100,
+        "slaktvolym": 100,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -110,7 +110,7 @@ let slaktvolBmer_data = [
         "djurtBp": 14,
         "fran": "2022-01-01T00:00:00",
         "schablon": 335,
-        "slaktvolBm": 4898370,
+        "slaktvolym": 4898370,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -121,7 +121,7 @@ let slaktvolBmer_data = [
         "djurtBp": 15,
         "fran": "2022-01-01T00:00:00",
         "schablon": 166.7,
-        "slaktvolBm": 5501.099999999999,
+        "slaktvolym": 5501.099999999999,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -132,7 +132,7 @@ let slaktvolBmer_data = [
         "djurtBp": 17,
         "fran": "2022-01-01T00:00:00",
         "schablon": 20.9,
-        "slaktvolBm": 1860.1,
+        "slaktvolym": 1860.1,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -143,7 +143,7 @@ let slaktvolBmer_data = [
         "djurtBp": 14,
         "fran": "2022-01-01T00:00:00",
         "schablon": 335,
-        "slaktvolBm": 50250,
+        "slaktvolym": 50250,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -154,7 +154,7 @@ let slaktvolBmer_data = [
         "djurtBp": 19,
         "fran": "2022-01-01T00:00:00",
         "schablon": 184.6,
-        "slaktvolBm": 2584.4,
+        "slaktvolym": 2584.4,
         "till": "2022-12-31T00:00:00"
     },
     {
@@ -165,7 +165,7 @@ let slaktvolBmer_data = [
         "djurtBp": 17,
         "fran": "2022-01-01T00:00:00",
         "schablon": 20.9,
-        "slaktvolBm": 14462.8,
+        "slaktvolym": 14462.8,
         "till": "2022-12-31T00:00:00"
     }
 ]
@@ -183,7 +183,7 @@ export function getBerakningsUnderlag() {
 
 export function getSlaktvolymer() {
 
-    return slaktvolBmer_data
+    return slaktvolymer_data
 }
 
 export function getAvvikelser() {
