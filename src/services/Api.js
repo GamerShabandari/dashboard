@@ -27,7 +27,7 @@ let avvikelser_data = [
         "deaktiveringsMotivering": null,
         "deaktiveringsAnvändare": null,
         "avvikelseTyp": {
-            "id": 1,
+            "id": 2,
             "namn": "Tillfällig ändring har inte gjorts i tid",
             "beskrivning": "minst 5 arbetsdagar innan, 15 i samband med storhelg",
             "förslagenMotivering": null

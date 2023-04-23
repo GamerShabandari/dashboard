@@ -1,359 +1,135 @@
 [
     {
         "id": 1,
-        "namn": "Team1",
+        "namn": "Region1",
         "medlemmar": [],
-        "value": "Team1",
-        "label": "Team1"
+        "value": "Region1",
+        "label": "Region1"
     },
     {
         "id": 2,
-        "namn": "Team2",
+        "namn": "Region2",
         "medlemmar": [],
-        "value": "Team2",
-        "label": "Team2"
+        "value": "Region2",
+        "label": "Region2"
     },
     {
         "id": 3,
-        "namn": "Team3",
+        "namn": "Region3",
         "medlemmar": [],
-        "value": "Team3",
-        "label": "Team3"
+        "value": "Region3",
+        "label": "Region3"
     },
     {
         "id": 4,
-        "namn": "Team4",
+        "namn": "Region4",
         "medlemmar": [],
-        "value": "Team4",
-        "label": "Team4"
+        "value": "Region4",
+        "label": "Region4"
     },
     {
         "id": 5,
-        "namn": "Team5",
+        "namn": "Region5",
         "medlemmar": [],
-        "value": "Team5",
-        "label": "Team5"
+        "value": "Region5",
+        "label": "Region5"
     },
     {
         "id": 6,
-        "namn": "Team6",
+        "namn": "Region6",
         "medlemmar": [],
-        "value": "Team6",
-        "label": "Team6"
+        "value": "Region6",
+        "label": "Region6"
     },
     {
         "id": 7,
-        "namn": "Team7",
+        "namn": "Region7",
         "medlemmar": [],
-        "value": "Team7",
-        "label": "Team7"
+        "value": "Region7",
+        "label": "Region7"
     },
     {
         "id": 8,
-        "namn": "Team8",
+        "namn": "Region8",
         "medlemmar": [],
-        "value": "Team8",
-        "label": "Team8"
+        "value": "Region8",
+        "label": "Region8"
     },
     {
         "id": 9,
-        "namn": "Team9",
+        "namn": "Region9",
         "medlemmar": [],
-        "value": "Team9",
-        "label": "Team9"
+        "value": "Region9",
+        "label": "Region9"
     },
     {
         "id": 10,
-        "namn": "Team10",
+        "namn": "Region10",
         "medlemmar": [],
-        "value": "Team10",
-        "label": "Team10"
+        "value": "Region10",
+        "label": "Region10"
     },
     {
         "id": 11,
-        "namn": "Team11",
+        "namn": "Region11",
         "medlemmar": [],
-        "value": "Team11",
-        "label": "Team11"
+        "value": "Region11",
+        "label": "Region11"
     },
     {
         "id": 12,
-        "namn": "Team12",
+        "namn": "Region12",
         "medlemmar": [],
-        "value": "Team12",
-        "label": "Team12"
+        "value": "Region12",
+        "label": "Region12"
     },
     {
         "id": 13,
-        "namn": "Team13",
+        "namn": "Region13",
         "medlemmar": [],
-        "value": "Team13",
-        "label": "Team13"
+        "value": "Region13",
+        "label": "Region13"
     },
     {
         "id": 14,
-        "namn": "Team14",
+        "namn": "Region14",
         "medlemmar": [],
-        "value": "Team14",
-        "label": "Team14"
+        "value": "Region14",
+        "label": "Region14"
     },
     {
         "id": 15,
-        "namn": "Team15",
+        "namn": "Region15",
         "medlemmar": [],
-        "value": "Team15",
-        "label": "Team15"
+        "value": "Region15",
+        "label": "Region15"
     },
     {
         "id": 16,
-        "namn": "Team16",
+        "namn": "Region16",
         "medlemmar": [],
-        "value": "Team16",
-        "label": "Team16"
+        "value": "Region16",
+        "label": "Region16"
     },
     {
         "id": 17,
-        "namn": "Team17",
+        "namn": "Region17",
         "medlemmar": [],
-        "value": "Team17",
-        "label": "Team17"
+        "value": "Region17",
+        "label": "Region17"
     },
     {
         "id": 18,
-        "namn": "Team18",
+        "namn": "Region18",
         "medlemmar": [],
-        "value": "Team18",
-        "label": "Team18"
+        "value": "Region18",
+        "label": "Region18"
     },
     {
         "id": 19,
-        "namn": "Team19",
+        "namn": "Region19",
         "medlemmar": [],
-        "value": "Team19",
-        "label": "Team19"
-    },
-    {
-        "id": 20,
-        "namn": "Team20",
-        "medlemmar": [],
-        "value": "Team20",
-        "label": "Team20"
-    },
-    {
-        "id": 21,
-        "namn": "Team21",
-        "medlemmar": [],
-        "value": "Team21",
-        "label": "Team21"
-    },
-    {
-        "id": 22,
-        "namn": "Team22",
-        "medlemmar": [],
-        "value": "Team22",
-        "label": "Team22"
-    },
-    {
-        "id": 23,
-        "namn": "Team23",
-        "medlemmar": [],
-        "value": "Team23",
-        "label": "Team23"
-    },
-    {
-        "id": 24,
-        "namn": "Team24",
-        "medlemmar": [],
-        "value": "Team24",
-        "label": "Team24"
-    },
-    {
-        "id": 25,
-        "namn": "Team25",
-        "medlemmar": [],
-        "value": "Team25",
-        "label": "Team25"
-    },
-    {
-        "id": 26,
-        "namn": "Team26",
-        "medlemmar": [],
-        "value": "Team26",
-        "label": "Team26"
-    },
-    {
-        "id": 27,
-        "namn": "Team27",
-        "medlemmar": [],
-        "value": "Team27",
-        "label": "Team27"
-    },
-    {
-        "id": 28,
-        "namn": "Team28",
-        "medlemmar": [],
-        "value": "Team28",
-        "label": "Team28"
-    },
-    {
-        "id": 29,
-        "namn": "Team29",
-        "medlemmar": [],
-        "value": "Team29",
-        "label": "Team29"
-    },
-    {
-        "id": 30,
-        "namn": "Team30",
-        "medlemmar": [],
-        "value": "Team30",
-        "label": "Team30"
-    },
-    {
-        "id": 31,
-        "namn": "Team31",
-        "medlemmar": [],
-        "value": "Team31",
-        "label": "Team31"
-    },
-    {
-        "id": 32,
-        "namn": "Team32",
-        "medlemmar": [],
-        "value": "Team32",
-        "label": "Team32"
-    },
-    {
-        "id": 33,
-        "namn": "Team33",
-        "medlemmar": [],
-        "value": "Team33",
-        "label": "Team33"
-    },
-    {
-        "id": 34,
-        "namn": "Team34",
-        "medlemmar": [],
-        "value": "Team34",
-        "label": "Team34"
-    },
-    {
-        "id": 35,
-        "namn": "Team35",
-        "medlemmar": [],
-        "value": "Team35",
-        "label": "Team35"
-    },
-    {
-        "id": 36,
-        "namn": "Team36",
-        "medlemmar": [],
-        "value": "Team36",
-        "label": "Team36"
-    },
-    {
-        "id": 37,
-        "namn": "Team37",
-        "medlemmar": [],
-        "value": "Team37",
-        "label": "Team37"
-    },
-    {
-        "id": 38,
-        "namn": "Team38",
-        "medlemmar": [],
-        "value": "Team38",
-        "label": "Team38"
-    },
-    {
-        "id": 39,
-        "namn": "Team39",
-        "medlemmar": [],
-        "value": "Team39",
-        "label": "Team39"
-    },
-    {
-        "id": 40,
-        "namn": "Team40",
-        "medlemmar": [],
-        "value": "Team40",
-        "label": "Team40"
-    },
-    {
-        "id": 41,
-        "namn": "Team41",
-        "medlemmar": [],
-        "value": "Team41",
-        "label": "Team41"
-    },
-    {
-        "id": 42,
-        "namn": "Team42",
-        "medlemmar": [],
-        "value": "Team42",
-        "label": "Team42"
-    },
-    {
-        "id": 43,
-        "namn": "Team43",
-        "medlemmar": [],
-        "value": "Team43",
-        "label": "Team43"
-    },
-    {
-        "id": 44,
-        "namn": "Team44",
-        "medlemmar": [],
-        "value": "Team44",
-        "label": "Team44"
-    },
-    {
-        "id": 45,
-        "namn": "Team45",
-        "medlemmar": [],
-        "value": "Team45",
-        "label": "Team45"
-    },
-    {
-        "id": 46,
-        "namn": "Team46",
-        "medlemmar": [],
-        "value": "Team46",
-        "label": "Team46"
-    },
-    {
-        "id": 47,
-        "namn": "Team47",
-        "medlemmar": [],
-        "value": "Team47",
-        "label": "Team47"
-    },
-    {
-        "id": 48,
-        "namn": "Team48",
-        "medlemmar": [],
-        "value": "Team48",
-        "label": "Team48"
-    },
-    {
-        "id": 49,
-        "namn": "Team49",
-        "medlemmar": [],
-        "value": "Team49",
-        "label": "Team49"
-    },
-    {
-        "id": 50,
-        "namn": "Team50",
-        "medlemmar": [],
-        "value": "Team50",
-        "label": "Team50"
-    },
-    {
-        "id": 51,
-        "namn": "Team51",
-        "medlemmar": [],
-        "value": "Team51",
-        "label": "Team51"
+        "value": "Region19",
+        "label": "Region19"
     }
 ]

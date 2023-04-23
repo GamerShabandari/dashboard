@@ -122,51 +122,49 @@ export function Kvalitetsgranskning() {
 
     // fetcha all data från API
     function getChosenTeamInformation(team, startDate, endDate) {
-         //dölj sökfält 
-         setToggleSearchContainer(false)
-         setNumberOfFetchesDone(0)
-         setNewFetchDone(true)
- 
-         let start = startDate.toLocaleDateString("sv-SE",
-             {
-                 year: "numeric",
-                 month: "2-digit",
-                 day: "2-digit"
-             })
- 
-         let end = endDate.toLocaleDateString("sv-SE",
-             {
-                 year: "numeric",
-                 month: "2-digit",
-                 day: "2-digit"
-             })
- 
-         setStartDateToShowInUI(start)
-         setEndDateToShowInUI(end)
- 
- 
-         // console.log("anläggningar: " , res);
-         let anlaggningarData = getAnlaggningar();
-         setAnlaggningar([...anlaggningarData])
-         setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
- 
-         //console.log("slaktvolymer: " , res);
-         let slaktvolymerData = getSlaktvolymer();
-         setSlaktvolymer([...slaktvolymerData])
-         setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
- 
-         let avvikelserData = getAvvikelser();
-         setAvvikelser([...avvikelserData])
-         setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
- 
-         // console.log("Bunderlag: " , res);
-         let berakningsunderlagData =  getBerakningsUnderlag();
-         setBerakningsUnderlag([...berakningsunderlagData])
+        //dölj sökfält 
+        setToggleSearchContainer(false)
+        setNumberOfFetchesDone(0)
+        setNewFetchDone(true)
 
-         setTimeout(() => {
+        let start = startDate.toLocaleDateString("sv-SE",
+            {
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+            })
+
+        let end = endDate.toLocaleDateString("sv-SE",
+            {
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+            })
+
+        setStartDateToShowInUI(start)
+        setEndDateToShowInUI(end)
+
+        let anlaggningarData = getAnlaggningar();
+        setAnlaggningar([...anlaggningarData])
+        setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
+
+        let slaktvolymerData = getSlaktvolymer();
+        setSlaktvolymer([...slaktvolymerData])
+        setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
+
+        let avvikelserData = getAvvikelser();
+        setAvvikelser([...avvikelserData])
+        setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
+
+        let berakningsunderlagData = getBerakningsUnderlag();
+       
+        setBerakningsUnderlag([...berakningsunderlagData])
+
+        // simulera async fetch
+        setTimeout(() => {
             setNumberOfFetchesDone((numberOfFetchesDone) => numberOfFetchesDone + 1);
-          }, "5000");
-         
+        }, "5000");
+
 
     }
 
