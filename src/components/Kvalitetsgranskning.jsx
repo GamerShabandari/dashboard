@@ -511,7 +511,7 @@ export function Kvalitetsgranskning() {
                                     defaultValue={selectedOption}
                                     onChange={setSelectedOption}
                                     options={teams}
-                                    placeholder={"välj team"}
+                                    placeholder={"välj region"}
                                 />
 
                             </section>
