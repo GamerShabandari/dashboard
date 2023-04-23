@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "namn": "Team1",
+        "teamID": "1",
+        "team": "Team1",
+        "avvikelser": null,
+        "idStr": "1"
+    },
+    {
+        "id": 2,
+        "namn": "Team2",
+        "teamID": "2",
+        "team": "Team2",
+        "avvikelser": null,
+        "idStr": "2"
+    },
+    {
+        "id": 3,
+        "namn": "Team3",
+        "teamID": "3",
+        "team": "Team3",
+        "avvikelser": null,
+        "idStr": "3"
+    },
+    {
+        "id": 4,
+        "namn": "Team4",
+        "teamID": "4",
+        "team": "Team4",
+        "avvikelser": null,
+        "idStr": "4"
+    },
+    {
+        "id": 5,
+        "namn": "Team5",
+        "teamID": "5",
+        "team": "Team5",
+        "avvikelser": null,
+        "idStr": "5"
+    },
+    {
+        "id": 6,
+        "namn": "Team6",
+        "teamID": "6",
+        "team": "Team6",
+        "avvikelser": null,
+        "idStr": "6"
+    },
+    {
+        "id": 7,
+        "namn": "Team7",
+        "teamID": "7",
+        "team": "Team7",
+        "avvikelser": null,
+        "idStr": "7"
+    },
+    {
+        "id": 8,
+        "namn": "Team8",
+        "teamID": "8",
+        "team": "Team8",
+        "avvikelser": null,
+        "idStr": "8"
+    },
+    {
+        "id": 9,
+        "namn": "Team9",
+        "teamID": "9",
+        "team": "Team9",
+        "avvikelser": null,
+        "idStr": "9"
+    },
+    {
+        "id": 10,
+        "namn": "Team10",
+        "teamID": "10",
+        "team": "Team10",
+        "avvikelser": null,
+        "idStr": "10"
+    },
+    {
+        "id": 11,
+        "namn": "Team11",
+        "teamID": "11",
+        "team": "Team11",
+        "avvikelser": null,
+        "idStr": "11"
+    },
+    {
+        "id": 12,
+        "namn": "Team12",
+        "teamID": "12",
+        "team": "Team12",
+        "avvikelser": null,
+        "idStr": "12"
+    },
+    {
+        "id": 13,
+        "namn": "Team13",
+        "teamID": "13",
+        "team": "Team13",
+        "avvikelser": null,
+        "idStr": "13"
+    },
+    {
+        "id": 14,
+        "namn": "Team14",
+        "teamID": "14",
+        "team": "Team14",
+        "avvikelser": null,
+        "idStr": "14"
+    },
+    {
+        "id": 15,
+        "namn": "Team15",
+        "teamID": "15",
+        "team": "Team15",
+        "avvikelser": null,
+        "idStr": "15"
+    },
+    {
+        "id": 16,
+        "namn": "Team16",
+        "teamID": "16",
+        "team": "Team16",
+        "avvikelser": null,
+        "idStr": "16"
+    },
+    {
+        "id": 17,
+        "namn": "Team17",
+        "teamID": "17",
+        "team": "Team17",
+        "avvikelser": null,
+        "idStr": "17"
+    },
+    {
+        "id": 18,
+        "namn": "Team18",
+        "teamID": "18",
+        "team": "Team18",
+        "avvikelser": null,
+        "idStr": "18"
+    },
+    {
+        "id": 19,
+        "namn": "Team19",
+        "teamID": "19",
+        "team": "Team19",
+        "avvikelser": null,
+        "idStr": "19"
+    },
+    {
+        "id": 20,
+        "namn": "Team20",
+        "teamID": "20",
+        "team": "Team20",
+        "avvikelser": null,
+        "idStr": "20"
+    },
+    {
+        "id": 21,
+        "namn": "Team21",
+        "teamID": "21",
+        "team": "Team21",
+        "avvikelser": null,
+        "idStr": "21"
+    },
+    {
+        "id": 22,
+        "namn": "Team22",
+        "teamID": "22",
+        "team": "Team22",
+        "avvikelser": null,
+        "idStr": "22"
+    },
+    {
+        "id": 23,
+        "namn": "Team23",
+        "teamID": "23",
+        "team": "Team23",
+        "avvikelser": null,
+        "idStr": "23"
+    },
+    {
+        "id": 24,
+        "namn": "Team24",
+        "teamID": "24",
+        "team": "Team24",
+        "avvikelser": null,
+        "idStr": "24"
+    },
+    {
+        "id": 25,
+        "namn": "Team25",
+        "teamID": "25",
+        "team": "Team25",
+        "avvikelser": null,
+        "idStr": "25"
+    },
+    {
+        "id": 26,
+        "namn": "Team26",
+        "teamID": "26",
+        "team": "Team26",
+        "avvikelser": null,
+        "idStr": "26"
+    },
+    {
+        "id": 27,
+        "namn": "Team27",
+        "teamID": "27",
+        "team": "Team27",
+        "avvikelser": null,
+        "idStr": "27"
+    },
+    {
+        "id": 28,
+        "namn": "Team28",
+        "teamID": "28",
+        "team": "Team28",
+        "avvikelser": null,
+        "idStr": "28"
+    },
+    {
+        "id": 29,
+        "namn": "Team29",
+        "teamID": "29",
+        "team": "Team29",
+        "avvikelser": null,
+        "idStr": "29"
+    },
+    {
+        "id": 30,
+        "namn": "Team30",
+        "teamID": "30",
+        "team": "Team30",
+        "avvikelser": null,
+        "idStr": "30"
+    },
+    {
+        "id": 31,
+        "namn": "Team31",
+        "teamID": "31",
+        "team": "Team31",
+        "avvikelser": null,
+        "idStr": "31"
+    },
+    {
+        "id": 32,
+        "namn": "Team32",
+        "teamID": "32",
+        "team": "Team32",
+        "avvikelser": null,
+        "idStr": "32"
+    },
+    {
+        "id": 33,
+        "namn": "Team33",
+        "teamID": "33",
+        "team": "Team33",
+        "avvikelser": null,
+        "idStr": "33"
+    },
+    {
+        "id": 34,
+        "namn": "Team34",
+        "teamID": "34",
+        "team": "Team34",
+        "avvikelser": null,
+        "idStr": "34"
+    },
+    {
+        "id": 35,
+        "namn": "Team35",
+        "teamID": "35",
+        "team": "Team35",
+        "avvikelser": null,
+        "idStr": "35"
+    },
+    {
+        "id": 36,
+        "namn": "Team36",
+        "teamID": "36",
+        "team": "Team36",
+        "avvikelser": null,
+        "idStr": "36"
+    },
+    {
+        "id": 37,
+        "namn": "Team37",
+        "teamID": "37",
+        "team": "Team37",
+        "avvikelser": null,
+        "idStr": "37"
+    },
+    {
+        "id": 38,
+        "namn": "Team38",
+        "teamID": "38",
+        "team": "Team38",
+        "avvikelser": null,
+        "idStr": "38"
+    },
+    {
+        "id": 39,
+        "namn": "Team39",
+        "teamID": "39",
+        "team": "Team39",
+        "avvikelser": null,
+        "idStr": "39"
+    },
+    {
+        "id": 40,
+        "namn": "Team40",
+        "teamID": "40",
+        "team": "Team40",
+        "avvikelser": null,
+        "idStr": "40"
+    },
+    {
+        "id": 41,
+        "namn": "Team41",
+        "teamID": "41",
+        "team": "Team41",
+        "avvikelser": null,
+        "idStr": "41"
+    },
+    {
+        "id": 42,
+        "namn": "Team42",
+        "teamID": "42",
+        "team": "Team42",
+        "avvikelser": null,
+        "idStr": "42"
+    },
+    {
+        "id": 43,
+        "namn": "Team43",
+        "teamID": "43",
+        "team": "Team43",
+        "avvikelser": null,
+        "idStr": "43"
+    },
+    {
+        "id": 44,
+        "namn": "Team44",
+        "teamID": "44",
+        "team": "Team44",
+        "avvikelser": null,
+        "idStr": "44"
+    },
+    {
+        "id": 45,
+        "namn": "Team45",
+        "teamID": "45",
+        "team": "Team45",
+        "avvikelser": null,
+        "idStr": "45"
+    },
+    {
+        "id": 46,
+        "namn": "Team46",
+        "teamID": "46",
+        "team": "Team46",
+        "avvikelser": null,
+        "idStr": "46"
+    },
+    {
+        "id": 47,
+        "namn": "Team47",
+        "teamID": "47",
+        "team": "Team47",
+        "avvikelser": null,
+        "idStr": "47"
+    },
+    {
+        "id": 48,
+        "namn": "Team48",
+        "teamID": "48",
+        "team": "Team48",
+        "avvikelser": null,
+        "idStr": "48"
+    },
+    {
+        "id": 49,
+        "namn": "Team49",
+        "teamID": "49",
+        "team": "Team49",
+        "avvikelser": null,
+        "idStr": "49"
+    },
+    {
+        "id": 50,
+        "namn": "Team50",
+        "teamID": "50",
+        "team": "Team50",
+        "avvikelser": null,
+        "idStr": "50"
+    },
+    {
+        "id": 51,
+        "namn": "Team51",
+        "teamID": "51",
+        "team": "Team51",
+        "avvikelser": null,
+        "idStr": "51"
+    }
+]

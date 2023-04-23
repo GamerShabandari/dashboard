@@ -1,195 +1,7 @@
 import berakningsunderlag_data from './berakningsunderlag_data.json';
+import anlaggningar_data from './anlaggningar_data.json';
+import team_data from './team_data.json';
 
-
-let teams_data = [
-    {
-        "id": "1",
-        "namn": "Team A",
-        "medlemmar": [],
-        "value": "Team A",
-        "label": "Team A"
-    },
-    {
-        "id": "2",
-        "namn": "Team B",
-        "medlemmar": [],
-        "value": "Team B",
-        "label": "Team B"
-    },
-    {
-        "id": "3",
-        "namn": "Team C",
-        "medlemmar": [],
-        "value": "Team C",
-        "label": "Team C"
-    },
-    {
-        "id": "4",
-        "namn": "Team D",
-        "medlemmar": [],
-        "value": "Team D",
-        "label": "Team D"
-    },
-    {
-        "id": "5",
-        "namn": "Team E",
-        "medlemmar": [],
-        "value": "Team E",
-        "label": "Team E"
-    },
-    {
-        "id": "6",
-        "namn": "Team F",
-        "medlemmar": [],
-        "value": "Team F",
-        "label": "Team F"
-    }
-    ,
-    {
-        "id": "7",
-        "namn": "Team G",
-        "medlemmar": [],
-        "value": "Team G",
-        "label": "Team G"
-    }
-    ,
-    {
-        "id": "8",
-        "namn": "Team H",
-        "medlemmar": [],
-        "value": "Team H",
-        "label": "Team H"
-    }
-    ,
-    {
-        "id": "9",
-        "namn": "Team I",
-        "medlemmar": [],
-        "value": "Team I",
-        "label": "Team I"
-    }
-    ,
-    {
-        "id": "10",
-        "namn": "Team J",
-        "medlemmar": [],
-        "value": "Team J",
-        "label": "Team J"
-    }
-]
-
-let anlaggningar_data = [
-    {
-        "id": 1,
-        "namn": "Anläggning A",
-        "teamID": "1",
-        "team": "Anläggning A",
-        "godkannandeNummer": "396",
-        "företag": "Anläggning A",
-        "godkannandeDatum": "2013-05-10T00:00:00",
-        "avvikelser": null,
-        "idStr": "1"
-    },
-    {
-        "id": 2,
-        "namn": "Anläggning B",
-        "teamID": "2",
-        "team": "Anläggning B",
-        "godkannandeNummer": "321",
-        "företag": "Anläggning B",
-        "godkannandeDatum": "2012-04-26T00:00:00",
-        "avvikelser": null,
-        "idStr": "2"
-    },
-    {
-        "id": 3,
-        "namn": "Anläggning C",
-        "teamID": "3",
-        "team": "Anläggning C",
-        "godkannandeNummer": "120",
-        "företag": "Anläggning C",
-        "godkannandeDatum": "2010-10-15T00:00:00",
-        "avvikelser": null,
-        "idStr": "3"
-    },
-    {
-        "id": 4,
-        "namn": "Anläggning A",
-        "teamID": "1",
-        "team": "Anläggning A",
-        "godkannandeNummer": "396",
-        "företag": "Anläggning A",
-        "godkannandeDatum": "2013-05-10T00:00:00",
-        "avvikelser": null,
-        "idStr": "1"
-    },
-    {
-        "id": 5,
-        "namn": "Anläggning B",
-        "teamID": "2",
-        "team": "Anläggning B",
-        "godkannandeNummer": "321",
-        "företag": "Anläggning B",
-        "godkannandeDatum": "2012-04-26T00:00:00",
-        "avvikelser": null,
-        "idStr": "2"
-    },
-    {
-        "id": 6,
-        "namn": "Anläggning C",
-        "teamID": "3",
-        "team": "Anläggning C",
-        "godkannandeNummer": "120",
-        "företag": "Anläggning C",
-        "godkannandeDatum": "2010-10-15T00:00:00",
-        "avvikelser": null,
-        "idStr": "3"
-    },
-    {
-        "id": 7,
-        "namn": "Anläggning A",
-        "teamID": "1",
-        "team": "Anläggning A",
-        "godkannandeNummer": "396",
-        "företag": "Anläggning A",
-        "godkannandeDatum": "2013-05-10T00:00:00",
-        "avvikelser": null,
-        "idStr": "1"
-    },
-    {
-        "id": 8,
-        "namn": "Anläggning B",
-        "teamID": "2",
-        "team": "Anläggning B",
-        "godkannandeNummer": "321",
-        "företag": "Anläggning B",
-        "godkannandeDatum": "2012-04-26T00:00:00",
-        "avvikelser": null,
-        "idStr": "2"
-    },
-    {
-        "id": 9,
-        "namn": "Anläggning C",
-        "teamID": "3",
-        "team": "Anläggning C",
-        "godkannandeNummer": "120",
-        "företag": "Anläggning C",
-        "godkannandeDatum": "2010-10-15T00:00:00",
-        "avvikelser": null,
-        "idStr": "3"
-    },
-    {
-        "id": 10,
-        "namn": "Anläggning C",
-        "teamID": "3",
-        "team": "Anläggning C",
-        "godkannandeNummer": "120",
-        "företag": "Anläggning C",
-        "godkannandeDatum": "2010-10-15T00:00:00",
-        "avvikelser": null,
-        "idStr": "3"
-    }
-]
 
 let avvikelser_data = [
     {
@@ -226,7 +38,7 @@ let avvikelser_data = [
 let slaktvolBmer_data = [
     {
         "anlaggningID": 1,
-        "anlaggningNamn": "Anläggning A",
+        "anlaggningNamn": "Team1",
         "antal": 134,
         "djurnamn": "Får",
         "djurtBp": 17,
@@ -237,7 +49,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 98,
         "djurnamn": "Älg",
         "djurtBp": 32,
@@ -248,7 +60,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 1217,
         "djurnamn": "Dovhjort",
         "djurtBp": 33,
@@ -259,7 +71,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 1327,
         "djurnamn": "Rådjur",
         "djurtBp": 31,
@@ -270,7 +82,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 1297,
         "djurnamn": "Vildsvin",
         "djurtBp": 35,
@@ -281,7 +93,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 2,
         "djurnamn": "Kronhjort",
         "djurtBp": 34,
@@ -292,7 +104,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 2,
-        "anlaggningNamn": "Anläggning B",
+        "anlaggningNamn": "Team2",
         "antal": 14622,
         "djurnamn": "Nötkreatur",
         "djurtBp": 14,
@@ -303,7 +115,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Anläggning C",
+        "anlaggningNamn": "Team3",
         "antal": 33,
         "djurnamn": "Kalv",
         "djurtBp": 15,
@@ -314,7 +126,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Anläggning C",
+        "anlaggningNamn": "Team3",
         "antal": 89,
         "djurnamn": "Får",
         "djurtBp": 17,
@@ -325,7 +137,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Anläggning C",
+        "anlaggningNamn": "Team3",
         "antal": 150,
         "djurnamn": "Nötkreatur",
         "djurtBp": 14,
@@ -336,7 +148,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Anläggning C",
+        "anlaggningNamn": "Team3",
         "antal": 14,
         "djurnamn": "Sugga",
         "djurtBp": 19,
@@ -347,7 +159,7 @@ let slaktvolBmer_data = [
     },
     {
         "anlaggningID": 3,
-        "anlaggningNamn": "Anläggning C",
+        "anlaggningNamn": "Team3",
         "antal": 692,
         "djurnamn": "Får",
         "djurtBp": 17,
@@ -381,6 +193,6 @@ export function getAvvikelser() {
 
 export function getTeamsFromApi() {
 
-    return teams_data
+    return team_data
 
 }
